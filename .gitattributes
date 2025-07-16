@@ -1,7 +1,10 @@
-# Ignore everything except Rust for language stats
+# Ignore common non-Rust files for GitHub language stats
+Makefile linguist-vendored
 *.toml linguist-vendored
 *.lock linguist-vendored
 *.md linguist-documentation
 *.yml linguist-vendored
 *.yaml linguist-vendored
-Cargo.lock linguist-vendored
+
+# Optional: ignore GitHub workflows or CI/CD files if any
+.github/** linguist-vendored
