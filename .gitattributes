@@ -1,15 +1,7 @@
-# Ignore Makefiles and related build files
-Makefile linguist-vendored
-*.mk linguist-vendored
-
-# Ignore Cargo build artifacts and folders
-target/ linguist-vendored
-.cargo/ linguist-vendored
-
-# Ignore lock files (do not count as Rust code)
-Cargo.lock linguist-vendored
-
-# Optionally ignore other common non-code files
+# Ignore everything except Rust for language stats
 *.toml linguist-vendored
 *.lock linguist-vendored
 *.md linguist-documentation
+*.yml linguist-vendored
+*.yaml linguist-vendored
+Cargo.lock linguist-vendored
