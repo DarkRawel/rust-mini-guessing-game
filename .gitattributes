@@ -1,9 +1,3 @@
-/target
-*.exe
-*.d
-*.o
-*.rlib
-*.rmeta
-*.json
-*.lock
-.DS_Store
+# Ignore Makefiles from language stats
+Makefile linguist-generated=false linguist-vendored=true linguist-documentation=false linguist-language=Ignore
+*.mk linguist-generated=false linguist-vendored=true linguist-documentation=false linguist-language=Ignore
