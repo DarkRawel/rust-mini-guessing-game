@@ -7,3 +7,6 @@
 *.fixed linguist-language=Rust
 *.pp linguist-language=Rust
 *.mir linguist-language=Rust
+src/etc/installer/gfx/* binary
+src/vendor/** -text
+Cargo.lock linguist-generated=false
